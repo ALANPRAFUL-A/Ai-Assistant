@@ -25,8 +25,7 @@ function App() {
             setSpeaking(true);
             setResponse(false);
             recognition.start();
-          }}
-        >
+          }}>
           Click to Speak
         </button>
       ) : (
